@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-vrsion }}
         cache: 'npm'
-      run: |
+    - run: |
         echo "Test starting..."
         npm ci
         timeout 20s npm start --if-present > npm_start.log || FAILED=true

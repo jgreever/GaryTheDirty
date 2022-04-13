@@ -4,7 +4,7 @@
 # GaryTheDirty
 
 [![License: GPLv3](https://img.shields.io/badge/License\:-GPLv3-blue "LICENSE.md")](LICENSE.md)
-[![pipeline status](http://10.20.30.7/luser/GaryTheDirty/badges/main/pipeline.svg)](http://10.20.30.7/luser/GaryTheDirty/-/commits/main) 
+[![Node.js CI](https://github.com/jgreever/GaryTheDirty/actions/workflows/node.js.yml/badge.svg)](https://github.com/jgreever/GaryTheDirty/actions/workflows/node.js.yml)
 
 ***Finished Tasks***
 

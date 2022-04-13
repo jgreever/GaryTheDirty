@@ -1,0 +1,18 @@
+variables:
+  TOKEN: $TOKEN
+
+cache:
+  paths:
+    - node_modules/
+
+test_GaryTheDirty_bot:
+  script:
+    - echo "Test starting, can be cancelled..."
+    - npm install
+    - npm audit fix
+    - timeout 20s npm start > npm_start.log || FAILED=true
+    - grep -e 'Ready to rock and roll!' npm_start.log
+    - if [ "$FAILED" == "true" ]; then exit 0; fi
+  interruptible: true
+  after_script:
+    - pkill node

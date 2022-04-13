@@ -1,0 +1,35 @@
+{
+  "name": "garythedirty",
+  "homepage": "http://gitserver.homelab.introverted.ninja:3000/luser/GaryTheDirty.git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitserver.homelab.introverted.ninja:3000/luser/GaryTheDirty.git"
+  },
+  "bugs": {
+    "url": "http://gitserver.homelab.introverted.ninja:3000/luser/GaryTheDirty/issues",
+    "email": "jgreever@gmail.com"
+  },
+  "keywords": [],
+  "author": "Justin Greever <jgreever@gmail.com> (http://gitserver.homelab.introverted.ninja:3000/luser/GaryTheDirty.git)",
+  "licence": {
+    "type": "GPL-3.0-or-later",
+    "url": "http://gitserver.homelab.introverted.ninja:3000/luser/GaryTheDirty/raw/branch/main/LICENSE.md"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^13.4.0",
+    "eslint": "^8.5.0",
+    "ytdl-core": "^4.9.2",
+    "zlib-sync": "^0.1.7"
+  }
+}
